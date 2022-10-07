@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Register</title>
+    <style>
+       body{
+            background-image: url("../static/login.svg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right bottom; 
+        }
+        h1{
+            text-align: center;
+            padding-top: 40px;
+        }
+        .container {
+            max-width: 30%; 
+            display: block;
+        
+            padding-top: 40px;
+
+        }
+        #btn.btn-success{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Registration Page</h1>
+    <div class='container mb-30'>
+        <form action="/register" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name *</label>
+                <input type="name" class="form-control" name='name' id="name" required>
+              </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address *</label>
+              <input type="email" class="form-control" name='email' id="email" aria-describedby="emailHelp" required>
+            </div>
+            <div class="mb-3">
+              <label for="Interests" class="form-label">Interests</label>
+              <input type="text" class="form-control" name='Interests' id="Interests" >
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" name='address' id="address" >
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password *</label>
+              <input type="password" class="form-control"  name='password' id="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="confirm-password" class="form-label">Confirm Password *</label>
+                <input type="password" class="form-control"  name='confirm-password' id="confirm-password" required>
+              </div>
+          
+            <div class="text-center">
+                <button type="submit" class="btn btn-success" >Register</button>
+            </div>
+         
+          </form>
+    </div>
+   
+</body>
+</html>

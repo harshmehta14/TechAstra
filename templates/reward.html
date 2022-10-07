@@ -1,0 +1,74 @@
+{% extends 'navbar.html' %}
+{% block body %}
+
+
+<div class="alert alert-success" style="text-align: center;" role="alert">
+    Check your points under Login > Navbar > Profile Section > My Points
+  </div>
+  <h2 style="text-align: center;margin-top: 15px">EARN</h2>
+  <div class="row justify-content-center" style="margin-top:30px;margin-left: 5px;margin-left: 5px;">
+    <div class="col-sm-3" style="margin: 10px;">
+      <div class="border border-4  card" style=" height: 10rem; width: 20rem; text-align: center;">
+        <div class="card-body ">
+            <h5 class="card-title">Create an Account</h5>
+            <p class="card-text"  style="color:red ;">10 points</p>
+            <a href="/register" class="btn btn-outline-primary">Create</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3" style="margin: 10px;">
+        <div class="border border-4 card" style=" height: 10rem; width: 20rem; text-align: center;">
+          <div class="card-body">
+              <h5 class="card-title">Daily Login</h5>
+              <p class="card-text"  style="color:red ;">1 points</p>
+              <!-- <a href="#" class="btn btn-primary">Create</a> -->
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3" style="margin: 10px;">
+        <div class="border border-4  card" style=" height: 10rem; width: 20rem; text-align: center;">
+          <div class="card-body">
+              <h5 class="card-title">Connect your social network</h5>
+              <p class="card-text"  style="color:red ;">25 points</p>
+              <a  class="btn btn-danger">Coming Soon</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3" style="margin: 10px;">
+        <div class="border border-4 card" style=" height: 10rem; width: 20rem; text-align: center;">
+          <div class="card-body">
+              <h5 class="card-title">Share your Feedback</h5>
+              <p class="card-text"  style="color:red ;">20 points</p>
+              <a href="#" class="btn btn-outline-primary">Form</a>
+            </div>
+        </div>
+      </div>
+      </div>
+      <hr>
+      <h2 style="text-align: center;">REDEEM</h2>
+<!-- 
+      <div class="row">
+       
+      </div> -->
+
+      
+  <div class="row justify-content-center" style="margin-top:30px;margin-left: 5px;margin-left: 5px;">
+    <div class="card" style="width: 18rem; margin: 10px; text-align: center;">
+        <img src="../static/book.jpg" class="card-img-top" alt="book" width="100%">
+        <div class="card-body">
+          <h5 class="card-title">A Book of your choice</h5>
+          <p class="card-text"  style="color:red ;">500 points</p>
+          <a href="#" class="btn btn-primary disabled">Redeem</a>
+        </div>
+      </div>
+    <div class="card" style="width: 18rem; margin: 10px; text-align: center;">
+        <img src="../static/ieee.jpeg" class="card-img-top" alt="IEEE" width="100%">
+        <div class="card-body">
+          <h5 class="card-title">Membership of IEEE</h5>
+          <p class="card-text"  style="color:red ;">1000 points</p>
+          <a href="#" class="btn btn-primary disabled">Redeem</a>
+        </div>
+      </div>
+    </div>
+
+{% endblock body %}
