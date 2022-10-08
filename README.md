@@ -39,5 +39,7 @@ But you can view the frontend and the code.
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1XEly8QAh7js-zEaaXDLVXi6IJyv7gBk0/view)
+![App Screenshot](https://drive.google.com/uc?export=view&id=1XEly8QAh7js-zEaaXDLVXi6IJyv7gBk0)
+![App Screenshot](https://drive.google.com/uc?export=view&id=1ds0yJHEZWXZSlrQj8pqO9gVWdvQ3S2Kh)
+![App Screenshot](https://drive.google.com/uc?export=view&id=1IvIVTQK9BTje3SQVaKCbXkIMOIoZQfMQ)
 
